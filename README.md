@@ -1,5 +1,7 @@
 ![test suite](https://github.com/julianfssen/coingecko_ruby/actions/workflows/ruby.yml/badge.svg)
 
+Forked to allow use of a demo API key.
+
 # CoingeckoRuby
 
 CoingeckoRuby is an easy-to-use client/wrapper for CoinGecko's awesome cryptocurrency API.

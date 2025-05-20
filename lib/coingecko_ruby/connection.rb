@@ -25,6 +25,8 @@ module CoingeckoRuby
       if @pro_api_key
         url = PRO_BASE_URL
         headers['x-cg-pro-api-key'] = @pro_api_key
+      elsif @demo_api_key
+        headers['x-cg-demo-api-key'] = @demo_api_key
       end
 
       connection = Faraday.new(url: url, headers: headers) do |c|

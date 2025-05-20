@@ -27,6 +27,7 @@ module CoingeckoRuby
     attr_reader :client
 
     def initialize(**options)
+      @demo_api_key = options.delete(:demo_api_key)
       @pro_api_key = options.delete(:pro_api_key)
 
       options.each do |key, value|
